@@ -48,4 +48,9 @@ class Producto:
         }
 
     def __str__(self):
-        return f"📦 ID: {self.id_producto} | 🏷️ Nombre: {self.nombre} | 📊 Cantidad: {self.cantidad} | 💲 Precio: ${self.precio:.2f}"
+    return (
+        f"📦 ID: {self.id_producto}\n"
+        f"🏷️ Nombre: {self.nombre}\n"
+        f"📊 Cantidad: {self.cantidad}\n"
+        f"💲 Precio: ${self.precio:.2f}"
+    )
