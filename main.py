@@ -1,6 +1,7 @@
 from modelos.producto import Producto
 from servicios.inventario import Inventario
 
+# Muestra el menú principal y retorna la opción elegida.
 def mostrar_menu():
     print("\n" + "="*45)
     print("🏪 SISTEMA AVANZADO DE GESTIÓN DE INVENTARIO 🏪")
@@ -14,6 +15,7 @@ def mostrar_menu():
     print("="*45)
     return input("👉 Seleccione una opción: ")
 
+# Función principal que maneja el bucle del programa y las opciones del usuario.
 def main():
     inventario = Inventario()
 

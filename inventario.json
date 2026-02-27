@@ -1,0 +1,26 @@
+{
+    "D001": {
+        "id_producto": "D001",
+        "nombre": "Disco Duro",
+        "cantidad": 4,
+        "precio": 100.0
+    },
+    "M002": {
+        "id_producto": "M002",
+        "nombre": "Mouse Inalambrico",
+        "cantidad": 7,
+        "precio": 20.0
+    },
+    "T003": {
+        "id_producto": "T003",
+        "nombre": "Tablet",
+        "cantidad": 2,
+        "precio": 200.0
+    },
+    "T005": {
+        "id_producto": "T005",
+        "nombre": "Teclado",
+        "cantidad": 7,
+        "precio": 40.0
+    }
+}
